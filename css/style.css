@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     background: #ffffff;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -389,60 +390,9 @@ button.btn:hover {
     color: var(--primary-color);
 }
 
-/* .top-news .tn-left {
-    margin-bottom: 30px;
-} */
-
-/* .top-news .tn-right {
-    margin-bottom: 60px;
-    padding: 0 30px;
-} */
-/* 
-.top-news .tn-right .col-md-6 {
-    padding: 0;
-} */
-
 .top-news .slick-prev,
 .top-news .slick-next {
-    width: 28px;
-    height: 28px;
-    z-index: 1;
-    transition: .5s;
-    color: #ffffff;
-    background: #000000;
-    border-radius: 4px;
-}
-
-.top-news .slick-prev {
-    left: 30px;
-}
-
-.top-news .slick-next {
-    right: 30px;
-}
-
-.top-news .slick-prev:hover,
-.top-news .slick-prev:focus,
-.top-news .slick-next:hover,
-.top-news .slick-next:focus {
-    color: #ffffff;
-    background: var(--primary-color);
-}
-
-.top-news .slick-prev::before,
-.top-news .slick-next::before {
-    font-family: "Font Awesome 5 Free";
-    font-size: 18px;
-    font-weight: 900;
-    color: #ffffff;
-}
-
-.top-news .slick-prev::before {
-    content: "\f104";
-}
-
-.top-news .slick-next::before {
-    content: "\f105";
+    display: none;
 }
 
 
@@ -536,7 +486,7 @@ button.btn:hover {
 
 .cat-news .slick-prev::before,
 .cat-news .slick-next::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     font-size: 18px;
     font-weight: 900;
     color: #ffffff;
@@ -622,10 +572,6 @@ button.btn:hover {
     margin-bottom: 30px;
 }
 
-/* .main-news .col-md-4 {
-    margin-bottom: 30px;
-} */
-
 .main-news .mn-img {
     border-radius: 5px;
     position: relative;
@@ -701,7 +647,7 @@ button.btn:hover {
 .main-news .mn-list ul li::before {
     position: absolute;
     content: '\f061';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     color: #000000;
     left: -25px;
@@ -847,7 +793,7 @@ button.btn:hover {
 
 .single-news .sn-slider .slick-prev::before,
 .single-news .sn-slider .slick-next::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     font-size: 18px;
     font-weight: 900;
     color: #ffffff;
@@ -1003,7 +949,7 @@ button.btn:hover {
 .sidebar .category ul li::before {
     position: absolute;
     content: '\f061';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     color: #000000;
     left: 1px;
@@ -1166,7 +1112,7 @@ button.btn:hover {
 
 .footer .footer-widget ul li a::before {
     content: '\f061';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     padding-right: 5px;
 }
@@ -1337,12 +1283,25 @@ button.btn:hover {
     } 
 }
 
-/* .container{
-    border: 2px solid red;
-}*/
-
 .col-md-6{
-    /* border: 2px solid yellow; */
     padding-inline: 10px
     ;
 }
+
+.whatsapp-button {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1000;
+  }
+
+  .whatsapp-button img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .show-button {
+    opacity: 1;
+  }

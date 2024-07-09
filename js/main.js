@@ -125,3 +125,12 @@
     });
 })(jQuery);
 
+window.addEventListener("scroll", function () {
+    var button = document.getElementById("whatsappButton");
+    if (window.scrollY > 100) {
+      button.classList.add("show-button");
+    } else {
+      button.classList.remove("show-button");
+    }
+  });
+
