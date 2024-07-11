@@ -544,6 +544,11 @@ button.btn:hover {
     width: 100%;
 }
 
+.cat-news .cn-img iframe {
+    border-radius: 5px;
+    width: 100%;
+}
+
 .cat-news .cn-img:hover img {
     filter: blur(3px);
     -webkit-filter: blur(3px);
@@ -1326,7 +1331,7 @@ button.btn:hover {
 /**********************************/
 /******** Footer Menu CSS *********/
 /**********************************/
-.footer-menu {
+/* .footer-menu {
     position: relative;
     background: #111111;
 }
@@ -1357,7 +1362,7 @@ button.btn:hover {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
-}
+} */
 
 
 /**********************************/
