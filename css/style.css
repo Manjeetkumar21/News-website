@@ -526,10 +526,6 @@ button.btn:hover {
     padding: 0;
 }
 
-/* .cat-news .col-md-6 {
-    margin-bottom: 30px;
-} */
-
 .cat-news h2 {
     color: #000000;
     margin-bottom: 30px;
@@ -547,10 +543,6 @@ button.btn:hover {
     width: 100%;
 }
 
-.cat-news .cn-img iframe {
-    border-radius: 5px;
-    width: 100%;
-}
 
 .cat-news .cn-img:hover img {
     filter: blur(3px);
@@ -1165,7 +1157,6 @@ button.btn:hover {
     display: inline-block;
     margin: 10px 10px 0 0;
     width: 40px;
-    /* height: 40px; */
     padding: 7px 0;
     text-align: center;
     font-size: 18px;
@@ -1329,43 +1320,6 @@ button.btn:hover {
 .footer .newsletter .btn:focus {
     box-shadow: none;
 }
-
-
-/**********************************/
-/******** Footer Menu CSS *********/
-/**********************************/
-/* .footer-menu {
-    position: relative;
-    background: #111111;
-}
-
-.footer-menu .container {
-    padding: 15px 0;
-    border-top: 1px solid #000000;
-}
-
-.footer-menu .f-menu {
-    font-size: 0;
-    text-align: center;
-}
-
-.footer-menu .f-menu a {
-    color: #ffffff;
-    font-size: 14px;
-    margin-right: 15px;
-    padding-right: 15px;
-    border-right: 1px solid #ffffff;
-}
-
-.footer-menu .f-menu a:hover {
-    color: var(--primary-color);
-}
-
-.footer-menu .f-menu a:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: none;
-} */
 
 
 /**********************************/
